@@ -1,0 +1,50 @@
+/* start Global Rules */
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+:root{
+    --first-color:#E65f78;
+    --second-color :#f5f5f5;
+}
+html{
+scroll-behavior: smooth;
+}
+/* start Media query */
+/* x-Small */
+    @media screen and (max-width: 639px){
+        
+    }
+/* Small */
+    @media screen and (min-width: 640px) and (max-width: 768px){
+        
+    }
+/* Medium */
+    @media screen and (min-width: 769px) and (max-width: 1024px){
+        
+    }
+/* Large */
+    @media screen and (min-width: 1025px) and (max-width: 1280px){
+        
+    }
+/* x-Large */
+    @media screen and (min-width: 1281px) and (max-width: 1536px){
+        
+    }
+/* 2x-Large */
+    @media screen and (min-width: 1537px) {
+
+    }
+/* End  Media query */
+
+
+.crud .container{
+    background-color: #5b5757a8;
+    border-radius: 10px;
+}
+.crud .container .form-floating input:focus,
+.crud .container .form-floating textarea:focus{
+    border: none;
+    border-bottom: 2px solid #5d5b5bd9;
+    outline: none;
+    box-shadow: none;
+}
